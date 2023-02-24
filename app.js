@@ -75,4 +75,7 @@ app.use((req, res) => {
   res.status(404).render('pages/404');
 });
 
-module.exports = app;
+// module.exports = app;
+app.listen(3000,()=>{
+  console.log("><3000")
+})
